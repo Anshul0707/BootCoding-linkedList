@@ -1,5 +1,4 @@
 # BootCoding-LinkList
-
 ## Linked list implementation in java 
 ### Linked List -
 
@@ -47,6 +46,8 @@ public static Node createLinkedList()
         return head;
     }
 ```
+![Untitled Diagram drawio (2)](https://user-images.githubusercontent.com/83603148/206546292-8e1ccb11-3222-401f-b15e-4ccfaa8d9226.png)
+
 - Create a createLinkedList() method in that class.
 - createLinkedList() will add a new node to the list
 - After that alocatng Starting Points to each nodes (i.e firstNode,secondNode,etc)
