@@ -71,7 +71,6 @@ public static void printLinkedList(Node head)
 - Traverse through the list till temp pointng to null.
 - Display each node by making temp to pointng to node next to it in each iteration
 
-
 ### Method to Insert first node in list -
 ```
 public static Node firstInsert(Node head)
@@ -86,4 +85,25 @@ public static Node firstInsert(Node head)
 - firstInsert() will insert new node to the beginning of the list.
 - Create a new node.
 - Make the new node points to the head node.
-- Then,make the new node as the head node
+- Then,make the new node as the head node.
+
+### Method to Insert Last node in list -
+```
+public static void lastInsertNode(Node head)
+    {
+        Node temp = head;
+        Node newNode = new Node(50);
+        System.out.println(head);
+        while (temp.next != null)
+        {
+            temp = temp.next;
+        }
+        temp.next = newNode;
+    }
+```
+- Create a lastInsertNode() method in that class.
+- lastInsertNode() will insert new node at the ending of the list.
+- Define a node temp (variable) which initially pointng to the head of the list.
+- Create a new node.
+- Traverse through the list till temp pointng to null.
+- if null then Make the next of temp (variable) points to the newNode.
