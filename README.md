@@ -48,3 +48,20 @@ public static Node createLinkedList()
 - Create a createLinkedList() method in that class.
 - createLinkedList() will add a new node to the list
 - After that alocatng Starting Points to each nodes (i.e firstNode,secondNode,etc)
+
+```
+public static void printLinkedList(Node head)
+    {
+        Node temp = head;
+        while (temp != null)
+        {
+            System.out.println(temp.data);
+            temp = temp.next;
+        }
+    }
+```
+- Then Create a printLinkedList() method in that class.
+- printLinkedList() will display the nodes present in the list
+- Define a node temp (variable) which initially pointng to the head of the list.
+- Traverse through the list till temp pointng to null.
+- Display each node by making temp to pointng to node next to it in each iteration
