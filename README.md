@@ -70,3 +70,20 @@ public static void printLinkedList(Node head)
 - Define a node temp (variable) which initially pointng to the head of the list.
 - Traverse through the list till temp pointng to null.
 - Display each node by making temp to pointng to node next to it in each iteration
+
+
+### Method to Insert first node in list -
+```
+public static Node firstInsert(Node head)
+    {
+        Node newNode = new Node(70);
+        newNode.next=head;
+        head=newNode;
+        return head;
+    }
+```
+- Then Create a firstInsert() method in that class.
+- firstInsert() will insert new node to the beginning of the list.
+- Create a new node.
+- Make the new node points to the head node.
+- Then,make the new node as the head node
