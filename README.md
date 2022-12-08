@@ -107,3 +107,36 @@ public static void lastInsertNode(Node head)
 - Create a new node.
 - Traverse through the list till temp pointng to null.
 - if null then Make the next of temp (variable) points to the newNode.
+
+### Method to Delete First node in list -
+```
+public static void deleteFirstNode(Node head)
+    {
+        head = head.next;
+        printLinkedList(head);
+    }
+```
+- Create a deleteFirstNode() method in that class.
+- deleteFirstNode() will delete first node in the list.
+- Make Next of head as head.
+- then call printLinkedList(head) method to print updated list of Nodes.
+
+### Method to Delete Last node in list -
+```
+public static void deleteLastNode(Node head)
+    {
+        Node temp = head;
+        while (temp != null) {
+            System.out.println(temp.data);
+            if (temp.next.next == null) {
+                temp.next = null;
+            }
+            temp = temp.next;
+        }
+    }
+```
+- Create a deleteFirstNode() method in that class.
+- deleteFirstNode() will delete first node in the list.
+- Make Next of head as head.
+- then call printLinkedList(head) method to print updated list of Nodes.
+
