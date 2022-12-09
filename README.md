@@ -1,4 +1,4 @@
-# BootCoding-LinkList
+# BootCoding-linkedList
 ## Linked list implementation in java 
 ### Linked List -
 
