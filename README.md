@@ -126,9 +126,11 @@ public static void deleteFirstNode(Node head)
 public static void deleteLastNode(Node head)
     {
         Node temp = head;
-        while (temp != null) {
+        while (temp != null) 
+        {
             System.out.println(temp.data);
-            if (temp.next.next == null) {
+            if (temp.next.next == null)
+            {
                 temp.next = null;
             }
             temp = temp.next;
@@ -137,6 +139,8 @@ public static void deleteLastNode(Node head)
 ```
 - Create a deleteFirstNode() method in that class.
 - deleteFirstNode() will delete first node in the list.
-- Make Next of head as head.
-- then call printLinkedList(head) method to print updated list of Nodes.
+- Define a node temp (variable) which initially pointng to the head of the list.
+- Traverse through the list till temp pointng to null.
+- Then cheak next of next element is null if ```temp.next.next == null``` condition is true then temp.next pointing to null.
+- if ```temp.next.next == null``` condition is false then ```temp = temp.next ``` this line will be execute.
 
