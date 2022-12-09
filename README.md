@@ -53,7 +53,7 @@ public static Node createLinkedList()
 - After that alocatng Starting Points to each nodes (i.e firstNode,secondNode,etc)
 
 
-### How to Display list of nodes ?
+### How to Print lists of nodes ?
 ```
 public static void printLinkedList(Node head)
     {
