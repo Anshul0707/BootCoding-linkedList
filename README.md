@@ -28,7 +28,7 @@ static class Node
 - Create a class Node which has two attributes data and next.
 - Next is a pointer to the next node.
 
-### Method to insert new node -
+### How to create new Linked List ?
 
 ```
 public static Node createLinkedList()
@@ -53,7 +53,7 @@ public static Node createLinkedList()
 - After that alocatng Starting Points to each nodes (i.e firstNode,secondNode,etc)
 
 
-### Method to Display list of nodes -
+### How to Display list of nodes ?
 ```
 public static void printLinkedList(Node head)
     {
@@ -71,7 +71,7 @@ public static void printLinkedList(Node head)
 - Traverse through the list till temp pointng to null.
 - Display each node by making temp to pointng to node next to it in each iteration
 
-### Method to Insert first node in list -
+### How to Insert first node in list ?
 ```
 public static Node firstInsert(Node head)
     {
@@ -87,7 +87,7 @@ public static Node firstInsert(Node head)
 - Make the new node points to the head node.
 - Then,make the new node as the head node.
 
-### Method to Insert Last node in list -
+### How to Insert Last node in list ?
 ```
 public static void lastInsertNode(Node head)
     {
@@ -108,7 +108,7 @@ public static void lastInsertNode(Node head)
 - Traverse through the list till temp pointng to null.
 - if null then Make the next of temp (variable) points to the newNode.
 
-### Method to Delete First node in list -
+### How to Delete First node in list ?
 ```
 public static void deleteFirstNode(Node head)
     {
@@ -121,7 +121,7 @@ public static void deleteFirstNode(Node head)
 - Make Next of head as head.
 - then call printLinkedList(head) method to print updated list of Nodes.
 
-### Method to Delete Last node in list -
+### How to Delete Last node in list ?
 ```
 public static void deleteLastNode(Node head)
     {
