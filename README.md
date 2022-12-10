@@ -25,6 +25,8 @@ static class Node
         }
     }
 ```
+![206672209-32db78d8-d57e-4403-80cf-2027269cfc8a](https://user-images.githubusercontent.com/83603148/206837996-716382e7-6151-4991-8d7b-c149008361b4.png)
+
 - Create a class Node which has two attributes data and next.
 - Next is a pointer to the next node.
 
@@ -65,6 +67,8 @@ public static void printLinkedList(Node head)
         }
     }
 ```
+![Untitled Diagram drawio (3)](https://user-images.githubusercontent.com/83603148/206838321-ad7a78d3-96df-4005-8205-a176c50321f9.png)
+
 - Then Create a printLinkedList() method in that class.
 - printLinkedList() will display the nodes present in the list
 - Define a node temp (variable) which initially pointng to the head of the list.
