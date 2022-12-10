@@ -85,7 +85,8 @@ public static Node firstInsert(Node head)
         return head;
     }
 ```
-![Untitled Diagram drawio (4)](https://user-images.githubusercontent.com/83603148/206839825-c35af430-8692-47ab-b685-1d96800e9350.png)
+![Untitled Diagram drawio (5)](https://user-images.githubusercontent.com/83603148/206839903-a67605bf-abcc-45e1-be3e-08648c97d2f7.png)
+
 
 - Then Create a firstInsert() method in that class.
 - firstInsert() will insert new node to the beginning of the list.
