@@ -1,5 +1,4 @@
 package com.bootcoding.Linklist;
-
 public class DeleteLastNode
 {
     public static void main(String[] args)
