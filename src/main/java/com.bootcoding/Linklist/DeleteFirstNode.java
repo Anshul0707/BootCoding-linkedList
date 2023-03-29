@@ -20,7 +20,6 @@ public class DeleteFirstNode
         }
     }
 
-
     private static Node createLinkedList()
     {
         Node firstNode = new Node(10);
